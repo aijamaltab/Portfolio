@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+
+  
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#experience">Навыки</a></li>
+          <li><a href="#portfolio">Проекты</a></li>
+          <li><a href="#games">Игры</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Обо мне</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Опыт</a></li>
+          <li><a href="#portfolio" onclick="toggleMenu()">Проекты</a></li>
+          <li><a href="#games" onclick="toggleMenu()">Игры</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Контакты</a></li>
+        </div>
+      </div>
+    </nav>
+<section id="profile">
+  <div class="section__text">
+    <p class="section__text__p1">ДОБРО ПОЖАЛОВАТЬ, МЕНЯ ЗОВУТ</p>
+    <h1 class="name">Айжамал</h1>
+    <p class="section__text__p2">FRONTEND DEVELOPER</p>
+    <div class="btn-container">
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Контакты
+      </button>
+    </div>
+    <div id="socials-container">
+      <img
+        src="linkedin.png"
+        alt="My LinkedIn profile"
+        class="icon"
+        onclick="location.href='https://linkedin.com/in/aijamal-tabyldieva-81b8332a2'"
+      />
+      <img
+        src="github.png"
+        alt="My Github profile"
+        class="icon"
+        onclick="location.href='https://github.com/aijamaltab'"
+      />
+    </div>
+  </div>
+  <div class="section__pic-container">
+    <img src="profile.png" alt="Aijamal" />
+  </div>
+</section>
+
+    <section id="about">
+      <h1 class="title">Обо мне</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="face.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Опыт</h3>
+              <p>6 месяцев<br />Frontend разработчик</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Образование</h3>
+              <p>Студент бакалавра</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Табылдиева Айжамал</br>
+              Год рождения: 29.06.2004 г. </br>
+              Место проживания: Кыргызстан, г. Бишкек</br>
+              Студент 2 курса специальности «Веб-информатика»</br> Кыргызско-Германского института прикладной информатики
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="experience">
+      <h1 class="title">Навыки</h1>
+      <div class="skills-section">
+        <div class="skills-section">
+          <div class="skill">
+              <p class="skill-label">HTML</p>
+              <div class="skill-bar-container">
+                  <div class="skill-bar" style="width: 90%;"></div>
+                  <span class="skill-percentage">90%</span>
+              </div>
+          </div>
+  
+          <div class="skill">
+              <p class="skill-label">CSS</p>
+              <div class="skill-bar-container">
+                  <div class="skill-bar" style="width: 90%;"></div>
+                  <span class="skill-percentage">90%</span>
+              </div>
+          </div>
+  
+          <div class="skill">
+              <p class="skill-label">JavaScript</p>
+              <div class="skill-bar-container">
+                  <div class="skill-bar" style="width: 50%;"></div>
+                  <span class="skill-percentage">50%</span>
+              </div>
+          </div>
+          <div class="skill">
+            <p class="skill-label">Figma</p>
+            <div class="skill-bar-container">
+                <div class="skill-bar" style="width: 90%;"></div>
+                <span class="skill-percentage">90%</span>
+            </div>
+        </div>
+        <div class="skill">
+          <p class="skill-label">Sass</p>
+          <div class="skill-bar-container">
+              <div class="skill-bar" style="width: 90%;"></div>
+              <span class="skill-percentage">90%</span>
+          </div>
+      </div>
+  
+      </div>                 
+    </section>
+    <section id="portfolio">
+      <h1 class="title">Проекты</h1>
+
+      <div class="carousel-container">
+        <div class="mySlides animate">
+          <a href="firstproject.html"><img src="/project1.png" alt="slide" /></a>
+          <div class="number">1 / 5</div>
+        </div>
+
+        <div class="mySlides animate">
+          <a href="secondproject.html"><img src="/project2.jpg" alt="slide" /></a>
+          <div class="number">2 / 5</div>
+        </div>
+
+        <div class="mySlides animate">
+          <a href="thirdproject.html"><img src="/project3.png" alt="slide" /></a>
+          <div class="number">3 / 5</div>
+        </div>
+
+        <div class="mySlides animate">
+          <a href="fourthproject.html"><img src="/project4.png" alt="slide" /></a>
+          <div class="number">4 / 5</div>
+        </div>
+
+
+        <a class="prev" onclick="prevSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+
+        <div class="dots-container">
+          <span class="dots" onclick="currentSlide(1)"></span>
+          <span class="dots" onclick="currentSlide(2)"></span>
+          <span class="dots" onclick="currentSlide(3)"></span>
+          <span class="dots" onclick="currentSlide(4)"></span>
+          <span class="dots" onclick="currentSlide(5)"></span>
+        </div>
+      </div>
+    
+      
+    </section>
+    <section id="games">
+      <h1 class="title">Игры на JS</h1>
+        <div class="game">
+          <div class="card">
+              <div class="card-image">
+                  <img src="flappy_bird.jpg">
+              </div>
+              <div class="card-content">
+                  <span class="card-title">Flappy Bird</span>
+              </div>
+              <div class="card-action">
+                  <a href="https://aijamaltab.github.io/flappy-bird-jsgame/" target="_blank">Демо</a>
+                  <a href="https://github.com/aijamaltab/flappy-bird-jsgame" target="_blank">Репозиторий</a>
+              </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+                <img src="snakegame.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title">Snake game</span>
+            </div>
+            <div class="card-action">
+                <a href="https://aijamaltab.github.io/Snake-jsgame/" target="_blank">Демо</a>
+                <a href="https://github.com/aijamaltab/Snake-jsgame" target="_blank">Репозиторий</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+                <img src="2048.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title">2048</span>
+            </div>
+            <div class="card-action">
+                <a href="https://aijamaltab.github.io/2048-jsgame/" target="_blank">Демо</a>
+                <a href="https://github.com/aijamaltab/2048-jsgame" target="_blank">Репозиторий</a>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="title">Контакты</h1>
+      <div class="contact">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">tabyldievaaijamal29@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="https://www.linkedin.com/in/aijamal-tabyldieva-81b8332a2/">LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="contactme">Если вас заинтересовали мои работы, заполните форму:</div>
+        <div class="contact-container">
+          
+          <form action="#" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+      
+            <button type="submit" class="send">Отправить</button>
+          </form>
+        </div>
+    </section>
+    <footer>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

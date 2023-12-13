@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="media.css" />
+
+  
+  </head>
+  <body>
+      <nav id="desktop-nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Обо мне</a></li>
+            <li><a href="index.html">Навыки</a></li>
+            <li><a href="index.html">Проекты</a></li>
+            <li><a href="index.html">Игры</a></li>
+            <li><a href="index.html">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">Обо мне</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Опыт</a></li>
+            <li><a href="#portfolio" onclick="toggleMenu()">Проекты</a></li>
+            <li><a href="#games" onclick="toggleMenu()">Игры</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Контакты</a></li>
+          </div>
+        </div>
+      </nav>
+
+    <div class="images">
+      <div class="carousel-container">
+        <div class="mySlides animate">
+          <img src="1port.png" alt="slide" />
+          <div class="number">1/10</div>
+        </div>
+
+        <div class="mySlides animate">
+          <img src="2port.png" alt="slide" />
+          <div class="number">2/10</div>
+        </div>
+
+        <div class="mySlides animate">
+          <img src="3port.png" alt="slide" />
+          <div class="number">3/10</div>
+        </div>
+
+        <div class="mySlides animate">
+          <img src="4port.png" alt="slide" />
+          <div class="number">4/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="5port.png" alt="slide" />
+          <div class="number">5/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="6port.png" alt="slide" />
+          <div class="number">6/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="7port.png" alt="slide" />
+          <div class="number">7/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="8port.png" alt="slide" />
+          <div class="number">8/10</div>
+        </div>
+
+
+
+        <a class="prev" onclick="prevSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+
+        <div class="dots-container">
+          <span class="dots" onclick="currentSlide(1)"></span>
+          <span class="dots" onclick="currentSlide(2)"></span>
+          <span class="dots" onclick="currentSlide(3)"></span>
+          <span class="dots" onclick="currentSlide(4)"></span>
+          <span class="dots" onclick="currentSlide(5)"></span>
+        </div>
+      </div>
+    </div>
+    <h2>Сайт для компании</h2>
+    <p>Данный сайт представляет собой универсальный шаблон для компании любой сферы деятельности. С его помощью компании могут создать привлекательный и функциональный веб-ресурс для представления своей деятельности в сети Интернет.</p>
+    <p>
+      Проект был реализован на HTML, SASS, JAVA SCRIPT</p>
+
+      <p>Сайт содержит разделы для подробного описания компании, предлагаемых продуктов или услуг, истории бренда, а также команды сотрудников.</p>
+      
+      <p>Портфолио или Галерея:<br>
+        Для компаний, предоставляющих продукты или услуги, предусмотрен раздел с портфолио, где можно представить выполненные проекты или демонстрировать продукты.</p>
+
+  <div class="github-link-container">
+    <a href="https://github.com/aijamaltab" class="github-link" target="_blank">
+      Репозиторий проекта
+    </a>
+  </div>
+      <footer>
+            <a href="mailto:examplemail@gmail.com">tabyldievaaijamal29@gmail.com</a>
+          <a href="https://www.linkedin.com/in/aijamal-tabyldieva-81b8332a2/">LinkedIn</a>
+      </footer>
+  <script src="script.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="media.css" />
+
+  
+  </head>
+  <body>
+      <nav id="desktop-nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Обо мне</a></li>
+            <li><a href="index.html">Навыки</a></li>
+            <li><a href="index.html">Проекты</a></li>
+            <li><a href="index.html">Игры</a></li>
+            <li><a href="index.html">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">Обо мне</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Опыт</a></li>
+            <li><a href="#portfolio" onclick="toggleMenu()">Проекты</a></li>
+            <li><a href="#games" onclick="toggleMenu()">Игры</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Контакты</a></li>
+          </div>
+        </div>
+      </nav>
+
+    <div class="images">
+      <div class="carousel-container">
+        <div class="mySlides animate">
+          <img src="1ethno.png" alt="slide" />
+          <div class="number">1/10</div>
+        </div>
+
+        <div class="mySlides animate">
+          <img src="2ethno.png" alt="slide" />
+          <div class="number">2/10</div>
+        </div>
+
+        <div class="mySlides animate">
+          <img src="3ethno.png" alt="slide" />
+          <div class="number">3/10</div>
+        </div>
+
+        <div class="mySlides animate">
+          <img src="4ethno.png" alt="slide" />
+          <div class="number">4/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="5ethno.png" alt="slide" />
+          <div class="number">5/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="6ethno.png" alt="slide" />
+          <div class="number">6/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="7ethno.png" alt="slide" />
+          <div class="number">7/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="8ethno.png" alt="slide" />
+          <div class="number">8/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="10ethno.png" alt="slide" />
+          <div class="number">9/10</div>
+        </div>
+        <div class="mySlides animate">
+          <img src="10ethno.png" alt="slide" />
+          <div class="number">10/10</div>
+        </div>
+
+
+        <a class="prev" onclick="prevSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+
+        <div class="dots-container">
+          <span class="dots" onclick="currentSlide(1)"></span>
+          <span class="dots" onclick="currentSlide(2)"></span>
+          <span class="dots" onclick="currentSlide(3)"></span>
+          <span class="dots" onclick="currentSlide(4)"></span>
+          <span class="dots" onclick="currentSlide(5)"></span>
+        </div>
+      </div>
+    </div>
+    <h2>Курсовой проект: Разработка онлайн-магазина этно-товаров на языке Java с использованием фреймворка Spring</h2>
+    <p>Данный проект представляет собой результат интенсивной работы, проведенной в рамках университетского курса по программированию. Над разработкой сайта "Онлайн-магазин этно-товаров" работала команда студентов в течение одного семестра, с целью погружения в реальные задачи и проблемы, связанные с созданием веб-приложений.</p>
+    <p>
+      Язык программирования: Java<br>
+      Проект был реализован на языке программирования Java, что позволило использовать его мощные возможности и обширное сообщество разработчиков.</p>
+      
+      <p>Использование фреймворка: Spring<br>
+      Для обеспечения эффективного и структурированного кода был выбран фреймворк Spring. Это обеспечило не только ускоренную разработку, но и повысило уровень безопасности и надежности проекта.</p>
+      
+      <p>Тема проекта: "Онлайн-магазин этно-товаров"<br>
+      Выбор темы "Онлайн-магазин этно-товаров" был обусловлен стремлением создать интересное и практичное веб-приложение. Это предоставило студентам возможность не только применить полученные в университете знания, но и реализовать функциональность, которая имеет потенциальную ценность на рынке.</p>
+
+  <div class="github-link-container">
+    <a href="https://github.com/achunueva/coursework_6/tree/master" class="github-link" target="_blank">
+      Репозиторий проекта
+    </a>
+  </div>
+      <footer>
+            <a href="mailto:examplemail@gmail.com">tabyldievaaijamal29@gmail.com</a>
+          <a href="https://www.linkedin.com/in/aijamal-tabyldieva-81b8332a2/">LinkedIn</a>
+      </footer>
+  <script src="script.js"></script>
+  </body>
+  </html>

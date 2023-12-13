@@ -1,0 +1,138 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 100vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #portfolio {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #about{
+    height: 150vh;
+  }
+  #profile {
+    height: 100vh;
+    margin-bottom: 6rem;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+.contact-info-upper-container{
+  font-size: 13px;
+}
+.icon{
+  height: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #contact,
+  #portfolio {
+    height: fit-content;
+  }
+  #portfolio{
+    height: 100vh;
+  }
+  #games{
+    height: 210vh;
+  }
+
+  #about{
+    height: 140vh;
+  }
+  #profile {
+    height: 80vh;
+    margin-bottom: 130;
+    margin-top: 0px;;
+  }
+  article {
+    font-size: 1rem;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .carousel-container{
+    width: 100%;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 10px;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .icon{
+    height: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p1 {
+    font-size: 15px;
+  }
+  .section__text__p2 {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 1rem;
+
+  }
+  .text-container {
+    text-align: left;
+  }
+  footer{
+    height: 0px;
+  }
+}
