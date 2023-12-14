@@ -60,28 +60,14 @@
 
 
 @media screen and (max-width: 600px) {
+ 
   #contact,
-  footer {
-    height: 40vh;
-  }
-  #contact,
-  #portfolio {
+  #portfolio,
+  #games,
+  #about,
+  #profile,
+  #experience {
     height: fit-content;
-  }
-  #portfolio{
-    height: 100vh;
-  }
-  #games{
-    height: 210vh;
-  }
-
-  #about{
-    height: 140vh;
-  }
-  #profile {
-    height: 80vh;
-    margin-bottom: 130;
-    margin-top: 0px;;
   }
   article {
     font-size: 1rem;
