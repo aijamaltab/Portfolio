@@ -13,19 +13,23 @@
 }
 
 @media screen and (max-width: 1200px) {
+  #contact,
+  #portfolio,
+  #games,
+  #about,
+  #profile,
+  #experience,
+  footer {
+    height: fit-content;
+  }
   nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
   }
-  #about{
-    height: 150vh;
-  }
-  #profile {
-    height: 100vh;
-    margin-bottom: 6rem;
-  }
+
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -102,7 +106,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 65vw;
     justify-content: center;
   }
   .section__text__p1 {
