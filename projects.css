@@ -289,15 +289,16 @@ p{
 
 
 .github-link-container {
-  text-align: center;
-  padding-top: 50px;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 40px;
   color: #fff;
 }
 
 .github-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #304D30;
+  background-color:#508d50;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -306,7 +307,7 @@ p{
 }
 
 .github-link:hover {
-  background-color: #1A68B7;
+  background-color: white;
 }
 footer {
   margin-top: 70px;
